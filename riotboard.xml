@@ -2,15 +2,14 @@
 
 <manifest>
 
-    <remote name="github" fetch="git://github.com"/>
     <remote name="openembedded" fetch="git://git.openembedded.org"/>
     <remote name="yoctoproject" fetch="git://git.yoctoproject.org"/>
+    <remote name="github" fetch="git://github.com"/>
 
     <default revision="sumo"/>
 
     <project remote="openembedded" name="meta-openembedded.git" path="source/meta-openembedded"/>
     <project remote="yoctoproject" name="poky.git" path="source/poky"/>
-    
     <project remote="github" name="Freescale/meta-freescale.git" path="source/meta-freescale"/>
 
 </manifest>
