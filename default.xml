@@ -7,7 +7,7 @@
 
     <default revision="sumo"/>
 
-    <project remote="openembedded" name="meta-openembedded.git" path="source/meta-openembedded"/>
-    <project remote="yoctoproject" name="poky.git" path="source/poky"/>
+    <project remote="openembedded" name="meta-openembedded.git" path="sources/meta-openembedded"/>
+    <project remote="yoctoproject" name="poky.git" path="sources/poky"/>
 
 </manifest>
