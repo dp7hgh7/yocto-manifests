@@ -8,8 +8,8 @@
 
     <default revision="sumo"/>
 
-    <project remote="openembedded" name="meta-openembedded.git" path="sources/meta-openembedded"/>
-    <project remote="yoctoproject" name="poky.git" path="sources/poky"/>
-    <project remote="github" name="Freescale/meta-freescale.git" path="sources/meta-freescale"/>
+    <project remote="openembedded" name="meta-openembedded.git" path="source/meta-openembedded"/>
+    <project remote="yoctoproject" name="poky.git" path="source/poky"/>
+    <project remote="github" name="Freescale/meta-freescale.git" path="source/meta-freescale"/>
 
 </manifest>
