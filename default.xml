@@ -6,7 +6,7 @@
     <remote name="openembedded" fetch="git://git.openembedded.org"/>
     <remote name="yoctoproject" fetch="git://git.yoctoproject.org"/>
 
-    <default revision="sumo"/>
+    <default revision="rocko"/>
 
     <project remote="openembedded" name="meta-openembedded.git" path="source/meta-openembedded"/>
     <project remote="yoctoproject" name="meta-freescale.git" path="source/meta-freescale"/>
