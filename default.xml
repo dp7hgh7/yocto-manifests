@@ -2,7 +2,7 @@
 
 <manifest>
 
-    <remote name="github" fetch="git://git@github.com"/>
+    <remote name="github" fetch="ssh://git@github.com"/>
     <remote name="openembedded" fetch="git://git.openembedded.org"/>
     <remote name="phytec" fetch="git://git.phytec.de"/>
     <remote name="yoctoproject" fetch="git://git.yoctoproject.org"/>
