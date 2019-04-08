@@ -9,7 +9,7 @@
 
     <default revision="thud"/>
 
-    <project remote="github" name="XMrVertigoX/meta-hubris.git"/>
+    <project remote="github" name="XMrVertigoX/meta-hubris.git" revision="develop"/>
     <project remote="openembedded" name="meta-openembedded.git"/>
     <project remote="phytec" name="meta-phytec.git"/>
     <project remote="phytec" name="meta-yogurt.git"/>
