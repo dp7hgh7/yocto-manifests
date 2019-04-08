@@ -15,6 +15,7 @@
     <project remote="phytec" name="meta-phytec"/>
     <project remote="phytec" name="meta-yogurt"/>
     <project remote="yoctoproject" name="meta-freescale"/>
+    <project remote="yoctoproject" name="meta-virtualization"/>
     <project remote="yoctoproject" name="poky"/>
 
     <project remote="github" name="XMrVertigoX/meta-hubris" revision="master"/>
