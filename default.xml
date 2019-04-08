@@ -11,8 +11,8 @@
 
     <project remote="github" name="XMrVertigoX/meta-hubris.git"/>
     <project remote="openembedded" name="meta-openembedded.git"/>
-    <project remote="phytec" name="meta-phytec.git">
-    <project remote="phytec" name="meta-yogurt.git">
+    <project remote="phytec" name="meta-phytec.git"/>
+    <project remote="phytec" name="meta-yogurt.git"/>
     <project remote="yoctoproject" name="meta-freescale.git"/>
     <project remote="yoctoproject" name="poky.git"/>
 
