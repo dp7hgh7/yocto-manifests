@@ -2,14 +2,14 @@
 
 <manifest>
 
-    <remote name="github" fetch="git://github.com"/>
+    <remote name="github" fetch="git://git@github.com"/>
     <remote name="openembedded" fetch="git://git.openembedded.org"/>
     <remote name="phytec" fetch="git://git.phytec.de"/>
     <remote name="yoctoproject" fetch="git://git.yoctoproject.org"/>
 
     <default revision="thud"/>
 
-    <project remote="github" name="XMrVertigoX/meta-hubris" revision="develop"/>
+    <project remote="github" name="XMrVertigoX/meta-hubris" revision="master"/>
     <project remote="openembedded" name="meta-openembedded"/>
     <project remote="phytec" name="meta-phytec"/>
     <project remote="phytec" name="meta-yogurt"/>
