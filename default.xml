@@ -9,11 +9,11 @@
 
     <default revision="thud"/>
 
-    <project remote="github" name="XMrVertigoX/meta-hubris.git" revision="develop"/>
-    <project remote="openembedded" name="meta-openembedded.git"/>
-    <project remote="phytec" name="meta-phytec.git"/>
-    <project remote="phytec" name="meta-yogurt.git"/>
-    <project remote="yoctoproject" name="meta-freescale.git"/>
-    <project remote="yoctoproject" name="poky.git"/>
+    <project remote="github" name="XMrVertigoX/meta-hubris" revision="develop"/>
+    <project remote="openembedded" name="meta-openembedded"/>
+    <project remote="phytec" name="meta-phytec"/>
+    <project remote="phytec" name="meta-yogurt"/>
+    <project remote="yoctoproject" name="meta-freescale"/>
+    <project remote="yoctoproject" name="poky"/>
 
 </manifest>
