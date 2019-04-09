@@ -2,22 +2,46 @@
 
 <manifest>
 
-    <remote name="github" fetch="ssh://git@github.com"/>
-    <remote name="openembedded" fetch="git://git.openembedded.org"/>
-    <remote name="phytec" fetch="git://git.phytec.de"/>
-    <remote name="yoctoproject" fetch="git://git.yoctoproject.org"/>
+	<default revision="thud"/>
 
-    <default revision="thud"/>
+	<remote
+		name="yoctoproject"
+		fetch="git://git.yoctoproject.org"/>
+	<remote
+		name="phytec"
+		fetch="git://git.phytec.de"/>
+	<remote
+		name="openembedded"
+		fetch="git://git.openembedded.org"/>
+	<remote
+		name="github"
+		fetch="ssh://git@github.com"/>
 
-    <project remote="github" name="meta-qt5/meta-qt5"/>
-    <project remote="github" name="rauc/meta-rauc"/>
-    <project remote="openembedded" name="meta-openembedded"/>
-    <project remote="phytec" name="meta-phytec"/>
-    <project remote="phytec" name="meta-yogurt"/>
-    <project remote="yoctoproject" name="meta-freescale"/>
-    <project remote="yoctoproject" name="meta-virtualization"/>
-    <project remote="yoctoproject" name="poky"/>
+	<project
+		name="poky.git"
+		remote="yoctoproject"
+		path="poky"/>
+	<project
+		name="meta-freescale.git"
+		remote="yoctoproject"
+		path="meta-freescale"/>
+	<project
+		name="meta-virtualization.git"
+		remote="yoctoproject"
+		path="meta-virtualization"/>
+	<project
+		name="meta-phytec.git"
+		remote="phytec"
+		path="meta-phytec"/>
+	<project
+		name="meta-openembedded.git"
+		remote="openembedded"
+		path="meta-openembedded"/>
 
-    <project remote="github" name="XMrVertigoX/meta-hubris" revision="master"/>
+	<project
+		name="XMrVertigoX/meta-hubris.git"
+		remote="github"
+		path="meta-hubris"
+		revision="master"/>
 
 </manifest>
