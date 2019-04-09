@@ -40,6 +40,16 @@
 		path="meta-openembedded"/>
 
 	<project
+		name="meta-rust/meta-rust.git"
+		remote="github"
+		path="meta-rust"
+		revision="master"/>
+	<project
+		name="Azure/meta-iotedge.git"
+		remote="github"
+		path="meta-iotedge"
+		revision="master"/>
+	<project
 		name="XMrVertigoX/meta-hubris.git"
 		remote="github"
 		path="meta-hubris"
