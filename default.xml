@@ -3,7 +3,7 @@
 <manifest>
 
 	<default
-		revision="thud"/>
+		revision="sumo"/>
 
 	<remote
 		name="yoctoproject"
