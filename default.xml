@@ -27,11 +27,6 @@
 		remote="openembedded"
 		path="meta-openembedded"/>
 	<project
-		name="XMrVertigoX/meta-hubris.git"
-		remote="github"
-		path="meta-hubris"
-		revision="master"/>
-	<project
 		name="meta-freescale.git"
 		remote="yoctoproject"
 		path="meta-freescale"/>
