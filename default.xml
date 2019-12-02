@@ -3,7 +3,7 @@
 <manifest>
 
 	<default
-		revision="warrior"/>
+		revision="zeus"/>
 
 	<remote
 		name="yoctoproject"
@@ -14,9 +14,6 @@
 	<remote
 		name="github"
 		fetch="ssh://git@github.com"/>
-	<remote
-		name="phytec"
-		fetch="git://git.phytec.de"/>
 
 	<project
 		name="poky.git"
@@ -30,9 +27,5 @@
 		name="meta-freescale.git"
 		remote="yoctoproject"
 		path="meta-freescale"/>
-	<project
-		name="meta-phytec.git"
-		remote="phytec"
-		path="meta-phytec"/>
 
 </manifest>
