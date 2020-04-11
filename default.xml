@@ -20,12 +20,12 @@
 		remote="yoctoproject"
 		path="poky"/>
 	<project
-		name="meta-openembedded.git"
-		remote="openembedded"
-		path="meta-openembedded"/>
-	<project
 		name="meta-freescale.git"
 		remote="yoctoproject"
 		path="meta-freescale"/>
+	<project
+		name="meta-openembedded.git"
+		remote="openembedded"
+		path="meta-openembedded"/>
 
 </manifest>
