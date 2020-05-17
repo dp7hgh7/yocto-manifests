@@ -3,7 +3,7 @@
 <manifest>
 
 	<default
-		revision="zeus"/>
+		revision="dunfell"/>
 
 	<remote
 		name="yoctoproject"
