@@ -3,7 +3,7 @@
 <manifest>
 
 	<default
-		revision="dunfell"/>
+		revision="hardknott"/>
 
 	<remote
 		name="yoctoproject"
